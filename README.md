@@ -1,16 +1,19 @@
 # 🍔 Caixupets (Showcase)
 
-**Caixupets** is a point-of-sale system developed for the vegan burger restaurant [Xupets](https://www.instagram.com/xupetsveggie/). Built with **Vue** and **Electron**, it features independent interfaces for cashier and kitchen, full item control, combo management, thermal printing, and detailed sales tracking.
+**Caixupets** is a point-of-sale system developed for the vegan burger restaurant [Xupets](https://www.instagram.com/xupetsveggie/).  
+Built with **Vue** and **Electron**, it features independent interfaces for cashier and kitchen, full item control, combo management, thermal printing, and detailed sales tracking.
 
-This repository serves as a **public showcase**. The source code is private and available upon request.
+> 🔒 **Note:**
+> This repository is publicly available for portfolio and demonstration purposes only.
+> The source code is proprietary and available upon request for non-commercial evaluation.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Vue.js** for the interface
-- **Electron** for desktop integration
-- **Thermal printer support** (kitchen and customer receipts)
+- **Electron** for desktop deployment
+- **Thermal printer support (POS58)** (kitchen and customer receipts)
 - Offline-ready and lightweight
 
 ---
@@ -18,11 +21,15 @@ This repository serves as a **public showcase**. The source code is private and 
 ## 🧾 Features
 
 - Dual-screen workflow (cashier ↔ kitchen)
-- Combo and product configuration
+- Orders confirmed at the cashier are automatically sent to the kitchen screen
+- Kitchen interface is operable via **numeric keypad** for fast and hands-free operation
+- Cashier has full access to kitchen orders for monitoring and control
+- Combo and product customization (e.g., "no onion", "extra sauce", "takeaway")
+- Visual indicators for **delivery types**: *Delivery*, *Takeaway*, and *In-store*, displayed clearly in the kitchen
 - Real-time order updates with item notes
-- Order history and receipt printing
-- Visual status tracking in the kitchen
-- Toggle availability of products dynamically
+- Toggle product availability dynamically
+- Order history with **CSV export**
+- Receipt and kitchen ticket printing
 
 ---
 
@@ -55,13 +62,19 @@ This repository serves as a **public showcase**. The source code is private and 
 
 ## 🔒 Licensing & Availability
 
-This software was developed exclusively for internal use by Xupets.  
-The code is not open-source, but **demo access** can be provided upon request.
+This software is provided for **personal and non-commercial use only**.  
+Developed exclusively for internal use by [Xupets](https://www.instagram.com/xupetsveggie/).  
+All rights reserved.
+
+---
+
+## 📦 Project Status
+
+**Completed and delivered.**  
 
 ---
 
 ## 📬 Contact
 
-If you’re interested in similar solutions or technical insights:
-
+For inquiries or similar projects:  
 **aloisiovilasboas@gmail.com**
