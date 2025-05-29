@@ -41,8 +41,8 @@ This repository serves as a **public showcase**. The source code is private and 
 ![Finalization](screenshots/fim-cozinha.png)
 
 ### Menu: Combos and Items
-![Combos](screenshots/cardapio-combo.png)
-![Potatoes](screenshots/cardapio-batata.png)
+![Combos](screenshots/cardapio_combo.png)
+![Potatoes](screenshots/cardapio_batata.png)
 
 ### Order Detail and History
 ![Details](screenshots/detalhamento.png)
