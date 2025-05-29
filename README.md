@@ -35,7 +35,7 @@ This repository serves as a **public showcase**. The source code is private and 
 ![Kitchen interface](screenshots/cozinha.png)
 
 ### Kitchen screen (items display)
-![Kitchen items](screenshots/itens-cozinha.png)
+![Kitchen items](screenshots/itenscozinha.png)
 
 ### Kitchen screen (order finalized)
 ![Finalization](screenshots/fim-cozinha.png)
